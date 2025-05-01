@@ -73,7 +73,7 @@ def determine_sections_from_doors(door_count, section_data):
     return sections, round(total_width, 3)
 
 # Web interface
-st.title("Door Lineup Configurator")
+st.title("Edge Door Lineup Configurator")
 
 input_type = st.radio("Select Input Type", ["Target Net Opening", "Number of Doors"])
 
